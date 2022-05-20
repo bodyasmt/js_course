@@ -2,7 +2,7 @@ function positiveSum(arr) {
     let result = 0;
    for (let i of arr) {
      if (i > 0) {
-       result += i
+       result += i;
        }
    }
      return result;
